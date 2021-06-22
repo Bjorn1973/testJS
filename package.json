@@ -1,5 +1,5 @@
 {
-  "name": "bundlers",
+  "name": "testJS",
   "scripts": {
     "start": "parcel serve ./src/index.html --open",
     "build": "npm run clean && parcel build ./src/index.html --dist-dir ./out --no-source-maps",
@@ -15,5 +15,9 @@
     "autoprefixer": "^10.2.6",
     "postcss": "^8.3.0",
     "posthtml-include": "^1.7.1"
+  },
+  "dependencies": {
+    "randomcolor": "^0.6.2",
+    "tiny-timer": "^1.6.0"
   }
 }
